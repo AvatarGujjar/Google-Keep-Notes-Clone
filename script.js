@@ -108,7 +108,7 @@ console.log("a",  JSON.parse(localStorage.getItem('notes')));
 console.log("as",  latestnotes);
 
 if(latestnotes){
-latestnotes?.msges?.forEach((note, index) => {
+latestnotes.msges.forEach((note, index) => {
     const date = latestnotes.dates[index] || ''; // Get the corresponding date or an empty string
     addNewNote(note, date);
 })
