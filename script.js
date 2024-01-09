@@ -69,7 +69,7 @@ const addNewNote = (text ='', date ='') => {
 
     // Set the date
     dateTimeEdit.innerHTML = date;
-    
+
 
     //toggle using edit button
     editButton.addEventListener('click', (e) => {
